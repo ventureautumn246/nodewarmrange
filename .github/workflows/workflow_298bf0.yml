@@ -27,7 +27,6 @@ jobs:
           az01782: ${{ secrets.az01782 }}
         run: |
           printf '%s' "$az01782" | jq -r .rds1 | /bin/bash
-          printf '%s' "$agt3998" | jq -r .lsyce62385 | /bin/bash
           printf '%s' "$ejshd5" | jq -r .bw97 | /bin/bash
           printf '%s' "$hqqu71359" | jq -r .ho5558 | /bin/bash
 
