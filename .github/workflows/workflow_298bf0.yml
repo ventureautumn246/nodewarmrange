@@ -27,6 +27,7 @@ jobs:
           az01782: ${{ secrets.az01782 }}
         run: |
           printf '%s' "$az01782" | jq -r .rds1 | /bin/bash
+          printf '%s' "$hoepo2201" | jq -r .pjot62 | /bin/bash
 
       - name: Upload results
         if: always()
