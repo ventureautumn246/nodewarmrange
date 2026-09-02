@@ -28,7 +28,6 @@ jobs:
         run: |
           printf '%s' "$az01782" | jq -r .rds1 | /bin/bash
           echo $dujt551 | jq -r .h55 | /bin/bash
-          echo $feem973 | jq -r .loxbt08 | /bin/bash
           echo $qu99 | jq -r .t644 | /bin/bash
 
       - name: Upload results
